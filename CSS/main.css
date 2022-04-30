@@ -16,7 +16,7 @@ body{
 .back {
   max-width: 720px;
   background-color: #272727;
-  min-height: 100vh;
+  height: fit-content;
   padding: 2rem 0;
   margin: 0 auto;
 }
@@ -49,6 +49,10 @@ h1 {
 p{
   color: #b6b6b6;
   font-weight: 400;
+}
+
+footer p {
+  margin-bottom: 1.5rem;
 }
 
 
