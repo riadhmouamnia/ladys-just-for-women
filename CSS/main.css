@@ -53,13 +53,16 @@ p{
 
 
 footer {
-  margin-top: 2rem;
+  margin: 1rem auto;
 }
 a {
   text-decoration: none;
   color: white;
 }
-
+a:hover {
+  text-decoration: none;
+  color: white;
+}
 a:visited {
   text-decoration: none;
   color: white;
