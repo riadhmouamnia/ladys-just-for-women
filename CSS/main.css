@@ -94,4 +94,5 @@ a:visited {
 
 .item img {
   width: 100%;
+  align-self: center;
 }
