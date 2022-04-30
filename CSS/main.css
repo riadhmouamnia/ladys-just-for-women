@@ -93,7 +93,5 @@ a:visited {
 }
 
 .item img {
-  background-position: center;
-  background-size: cover;
-
+  width: 100%;
 }
