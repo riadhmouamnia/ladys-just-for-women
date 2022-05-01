@@ -33,12 +33,13 @@ body{
   background-size: auto;
   object-fit: cover;
 }
-button {
+a {
   display: block;
-  /* width: 80%; */
+  width: 80%;
   margin: 1rem;
-
 }
+
+
 h1 {
   color: rgb(230, 230, 230);
   font-weight: 500;
@@ -106,4 +107,8 @@ a:visited {
 .item img {
   width: 100%;
   align-self: center;
+}
+
+.carousel {
+  margin-bottom: 0%;
 }
