@@ -42,10 +42,10 @@ body{
   object-fit: cover;
   box-shadow: 2px 2px 10px #0000009d;
 }
-a {
+.btn {
   display: block;
   width: 80%;
-  margin: 1rem;
+  margin: 1rem auto;
 }
 
 
