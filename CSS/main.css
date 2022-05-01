@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700;800&family=Whisper&display=swap');
+
 
 body{
   margin: 0;
@@ -18,20 +20,27 @@ body{
   background-color: #272727;
   height: fit-content;
   padding: 1rem 0;
+  padding-bottom: 0;
   margin: 0 auto;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .logo {
-  border: 1px solid white;
+  border: 2.2px solid rgb(146, 146, 146);
   border-radius: 50%;
   display: flex;
   margin: 2em auto;
   width: 10rem;
   height: 10rem;
   background: url(../images/logo.svg);
+  background-color: #272727;
   background-repeat: no-repeat;
   background-size: auto;
   object-fit: cover;
+  box-shadow: 2px 2px 10px #0000009d;
 }
 a {
   display: block;
@@ -42,10 +51,17 @@ a {
 
 h1 {
   color: rgb(230, 230, 230);
-  font-weight: 500;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  font-weight: 900;
   font-size: 2.7rem;
+  text-shadow: 1px 1px 10px #0000009d;
+}
+h2{
+  font-family: Whisper,Montserrat, sans-serif;
+  color: #da8022;
+  font-weight: 900;
+  font-size: 2.4rem;
+  text-shadow: 1px 1px 10px #0000009d;
+  
 }
 p{
   color: #b6b6b6;
@@ -53,7 +69,12 @@ p{
 }
 
 footer {
-  margin: 1rem auto;
+  width: 100%;
+  background-color: #646464b0;
+  padding-bottom: 1rem;
+}
+footer p {
+  color: #ffffff;
 }
 a {
   text-decoration: none;
